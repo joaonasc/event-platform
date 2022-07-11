@@ -26,10 +26,12 @@ export function Subscribe() {
   }
 
   return (
-    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-      <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-        <div className="max-w-[648px]">
-          <Logo />
+    <div className="min-h-screen bg-blur bg-cover bg-no-repeat lg:text-left text-center flex flex-col items-center">
+      <div className="w-full max-w-[1100px] flex flex-col lg:flex-row items-center justify-between mt-20 mx-auto  ">
+        <div className="max-w-[648px] pb-4 px-3">
+          <div className="mx-auto h-10 md:mx-0 inline-block">
+            <Logo />
+          </div>
           <h1 className="mt-8 text-[2.5rem] leading-tight">
             Construa uma{' '}
             <strong className="text-blue-500">aplicação completa</strong>, do
@@ -42,7 +44,7 @@ export function Subscribe() {
           </p>
         </div>
 
-        <div className="p-8 bg-gray-700 border-grey-500 rounded">
+        <div className="p-8 bg-gray-700 border-grey-500 rounded py-10">
           <strong className="text-2xl mb-6 block">
             Increva-se gratuitamente
           </strong>
